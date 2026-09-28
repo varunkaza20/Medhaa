@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #07111F;
+    color: #E8F0FA;
+  }
+}
+
+/* Custom scrollbar for dark tech aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+::-webkit-scrollbar-thumb {
+  background: #1D3553;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4C8DFF;
+}
+
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #4C8DFF;
+  outline-offset: 2px;
+}
