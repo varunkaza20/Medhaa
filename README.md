@@ -94,11 +94,6 @@ To build for production:
 ```bash
 npm run build
 ```
-
-## Status
-
-All four NLP components are trained/integrated and evaluated. The React frontend covers all eight pages. The FastAPI backend and full frontend-backend integration are in progress.
-
 ## Author
 
 Varun Kaza
